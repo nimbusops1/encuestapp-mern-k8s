@@ -14,7 +14,7 @@ spec:
     spec: 
       containers:
         - name: backend
-          image: emi8977/enc-back1:latest
+          image: emi8977/enc-back2:latest
           ports:
             - containerPort: 8080 #tiene que ser el port del env del servidor.js del backend
 
