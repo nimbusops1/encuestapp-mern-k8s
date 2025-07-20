@@ -10,14 +10,14 @@ spec:
   - host: encuestapp.local.cloud
     http:
       paths:
-      - path: /api/login
+      - path: /api/auth/login
         pathType: Prefix
         backend:
           service:
             name: backend-service
             port:
               number: 80
-      - path: /api/registro
+      - path: /api/auth/registro
         pathType: Prefix
         backend:
           service:
