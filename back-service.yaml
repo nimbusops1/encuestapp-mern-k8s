@@ -8,5 +8,6 @@ spec:
   ports:
   - protocol: TCP
     port: 80
-    targetPort: 3001 #tiene que coincidir con el containerport del deployment del backend
+    targetPort: 3000
   type: ClusterIP
+
