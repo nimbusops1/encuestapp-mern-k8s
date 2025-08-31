@@ -11,10 +11,12 @@ spec:
     metadata:
       labels:
         app: backend
-    spec: 
+    spec:  
       containers:
         - name: backend
-          image: emi8977/enc-back5:latest
+          image: emi8977/encuestapp-mern-ECMAScript6-backend:REPLACEME
           ports:
-            - containerPort: 3001 #tiene que ser el port del env del servidor.js del backend
+            - containerPort: 3000
+
+
 
